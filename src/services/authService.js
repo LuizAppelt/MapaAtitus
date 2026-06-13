@@ -1,5 +1,8 @@
 import axios from 'axios';
 
+
+"// TODO: Atualizar a URL da API para o ambiente de produção NOSSO//"
+"//TODO subir API no render.com e atualizar a URL abaixo//"
 const API_URL = 'https://two025-01-apisample.onrender.com/auth';
 
 export async function signIn(email, password) {
